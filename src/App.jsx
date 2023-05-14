@@ -7,12 +7,12 @@ import Personal from './components/Personal'
 function App() {
   const [isMobile, setIsMobile] = useState(false)
 
-  
   useEffect(() => {
     function handleResize() {
       if (window.innerWidth <= 868) {
         setIsMobile(true);
-      } else {
+      } 
+      else {
         setIsMobile(false);
       }
     }
