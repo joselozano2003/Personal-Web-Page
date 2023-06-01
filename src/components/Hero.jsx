@@ -1,8 +1,8 @@
 import React from "react";
 import Profile from '../assets/memoji.png'
-import Git from '../assets/github/github96.png'
-import LinkedIn from '../assets/linkedin/linkedin90.png'
-import Email from '../assets/email/email90.png'
+import Git from '../assets/icons/github/github96.png'
+import LinkedIn from '../assets/icons/linkedin/linkedin90.png'
+import Email from '../assets/icons/email/email90.png'
 
 export default function Hero() {
 
