@@ -3,6 +3,7 @@ import "./index.css"
 import Navbar from './components/Navbar'
 import Hero from './components/Hero'
 import Personal from './components/Personal'
+import Technologies from './components/Technologies'
 
 function App() {
   const [isMobile, setIsMobile] = useState(false)
@@ -27,6 +28,7 @@ function App() {
       <Navbar platform/>
       <Hero/>
       <Personal platform={isMobile}/>
+      <Technologies/>
     </div>
   )
 }
