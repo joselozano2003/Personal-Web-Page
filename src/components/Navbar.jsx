@@ -19,7 +19,7 @@ function Navbar() {
             </div>
             <div className="navbar__links">
                 <ul className="navbar-ul">
-                    <Link to='about-me' spy={true} smooth={true} offset={0} duration={500} style={styles.link} className="navbar__link">
+                    <Link to='about-me' spy={true} smooth={true} offset={-60} duration={500} style={styles.link} className="navbar__link">
                         <li className="navbar-item">About</li>
                     </Link>
                     <a href="#skills-section" className="navbar__link">

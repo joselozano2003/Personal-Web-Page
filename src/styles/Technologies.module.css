@@ -1,8 +1,23 @@
-.container{
+.parent{
     height: calc(100vh - 60px);
     background-color: grey;
     width: 100%;
     margin: 0;
     left: 0;
-    
+    padding-top: 50px;
+    text-align: center;
 }
+
+.container{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 2.5rem;
+}
+
+.ball{
+    height: 112px;
+    width: 112px;
+}
+
