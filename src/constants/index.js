@@ -4,20 +4,16 @@ import {
     html,
     css,
     reactjs,
-    tailwind,
     nodejs,
     git,
-    figma,
-    docker,
-    threejs,
     python,
     java,
     mysql,
     next,
     c,
-    dart,
     flask ,
     postgres,
+    sql,
   } from "../assets";
 
   const languages = [
@@ -49,6 +45,10 @@ import {
       name: "python",
       icon: python,
     },
+    {
+      name: "SQL",
+      icon: sql,
+    }
 
   ]
   

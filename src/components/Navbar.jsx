@@ -22,9 +22,9 @@ function Navbar() {
                     <Link to='about-me' spy={true} smooth={true} offset={-60} duration={500} style={styles.link} className="navbar__link">
                         <li className="navbar-item">About</li>
                     </Link>
-                    <a href="#skills-section" className="navbar__link">
+                    <Link to='tech-section' spy={true} smooth={true} offset={-60} duration={500} style={styles.link} className="navbar__link">
                         <li className="navbar-item">Skills</li>
-                    </a>
+                    </Link>
 
                     <a href="#portfolio-section" className="navbar__link">
                         <li className="navbar-item">Portfolio</li>
