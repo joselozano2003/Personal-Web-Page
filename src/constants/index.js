@@ -16,7 +16,8 @@ import {
     next,
     c,
     dart,
-    flask 
+    flask ,
+    postgres,
   } from "../assets";
 
   const languages = [
@@ -70,8 +71,8 @@ import {
       icon: flask,
     },
     {
-      name: "Three JS",
-      icon: threejs,
+      name: postgres,
+      icon: postgres,
     },
     {
       name: "git",

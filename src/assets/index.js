@@ -18,7 +18,7 @@ import next from "./tech/next.png";
 import c from "./tech/c.png";
 import dart from "./tech/dart.png";
 import flask from "./tech/flask.png";
-
+import postgres from "./tech/postgres.png";
 
 export {
   css,
@@ -40,5 +40,6 @@ export {
   next,
   c,
   dart,
-  flask
+  flask,
+  postgres,
 };
