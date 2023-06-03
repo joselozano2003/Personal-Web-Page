@@ -48,7 +48,7 @@ function Navbar() {
           spy={true}
           smooth={true}
           offset={0}
-          duration={500}
+          duration={750}
           style={activeLink === '' ? { ...styles.link, ...styles.activeLink } : styles.link}
           onSetActive={handleSetActive}
         >
@@ -62,7 +62,7 @@ function Navbar() {
             spy={true}
             smooth={true}
             offset={-60}
-            duration={500}
+            duration={750}
             style={
               activeLink === 'about-me'
                 ? { ...styles.link, ...styles.activeLink }
@@ -78,7 +78,7 @@ function Navbar() {
             spy={true}
             smooth={true}
             offset={-60}
-            duration={500}
+            duration={750}
             style={
               activeLink === 'tech-section'
                 ? { ...styles.link, ...styles.activeLink }
@@ -89,17 +89,22 @@ function Navbar() {
           >
             <li className="navbar-item">Skills</li>
           </Link>
-          <a
-            href="#portfolio-section"
-            className="navbar__link"
+          <Link
+            to="portfolio-section"
+            spy={true}
+            smooth={true}
+            offset={-60}
+            duration={750}
             style={
               activeLink === 'portfolio-section'
                 ? { ...styles.link, ...styles.activeLink }
                 : styles.link
             }
+            onSetActive={handleSetActive}
+            className="navbar__link"
           >
             <li className="navbar-item">Portfolio</li>
-          </a>
+          </Link>
         </ul>
       </div>
     </nav>
