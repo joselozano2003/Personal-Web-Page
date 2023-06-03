@@ -1,9 +1,10 @@
 .parent{
-    height: calc(100vh - 60px);
+    height: calc(100% + 50px);
     width: 100%;
     margin: 0;
     left: 0;
-    padding-top: 50px;
+    padding-top: 20px;
+    padding-bottom: 50px;
     text-align: center;
     background-color: rgb(005, 008, 022);
     display: flex;
@@ -18,7 +19,7 @@
     justify-content: center;
     align-items: center;
     gap: 2.5rem;
-    width: 80%;
+    width: 70%;
 }
 
 .ball{
@@ -34,8 +35,17 @@
     font-size: 5rem;
     margin: 0;
     
-  }
-  
+}
+
+.moving{
+    margin: 50px;
+    font-size: 2em;
+    font-weight: bold;
+    background-image: linear-gradient(to top, #dc6000, #ed8400, #f8a900, #fece00, #fff400);
+    background-clip: text;
+    -webkit-background-clip: text; /* For Safari/Chrome */
+    color: transparent;
+}
 
 @media screen and (max-width: 868px){
     .parent{
