@@ -6,10 +6,6 @@ import Email from '../assets/icons/email/email90.png'
 
 export default function Hero() {
 
-  function handleEmailClick() {
-    window.location.href = 'mailto:josecamilolozano2003@gmail.com';
-  }
-
   return (
     <section id ="hero-section">
       <div className="hero">
@@ -20,7 +16,7 @@ export default function Hero() {
                 <h2> Computer Science Student & Software Developer</h2>
             </div>
             <div className="about-icons">
-              <a href="" className="about-icon-holder" onClick={handleEmailClick}>
+              <a target="_blank" href="mailto:josecamilolozano2003@gmail.com" className="about-icon-holder">
                 <img src={Email} className="about-icon"/>
               </a>
               <a href="https://github.com/joselozano2003" target="_blank" rel="noopener noreferrer" className="about-icon-holder">
