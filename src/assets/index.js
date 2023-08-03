@@ -13,6 +13,10 @@ import c from "./tech/c.png";
 import flask from "./tech/flask.png";
 import postgres from "./tech/postgres.png";
 import sql from "./tech/sql.png";
+import django from "./tech/django.png";
+import tailwind from "./tech/tailwind.png";
+import firebase from "./tech/firebase.png";
+import svelte from "./tech/svelte.png";
 
 export {
   css,
@@ -30,4 +34,8 @@ export {
   flask,
   postgres,
   sql,
+  django,
+  tailwind,
+  firebase,
+  svelte
 };
