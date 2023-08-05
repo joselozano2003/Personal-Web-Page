@@ -1,11 +1,28 @@
 import React, { useState, useEffect} from "react";
 import Map from '../components/Map.jsx';
 
-export default function Personal(props) {
+export default function Personal() {
+
+    const [isMobile, setIsMobile] = useState(false)
+
+  useEffect(() => {
+    function handleResize() {
+      if (window.innerWidth <= 868) {
+        setIsMobile(true);
+      } 
+      else {
+        setIsMobile(false);
+      }
+    }
+
+    window.addEventListener('resize', handleResize);
+
+    return () => window.removeEventListener('resize', handleResize);
+  }, []);
 
     return (
         <section id="about-me">
-            {props.platform ?
+            {isMobile ?
                 <div className="personal">
                     <div className="personalText">
                     <h1>About Me</h1>
