@@ -1,98 +1,133 @@
 import {
-    javascript,
-    typescript,
-    html,
-    css,
-    reactjs,
-    nodejs,
-    git,
-    python,
-    java,
-    mysql,
-    next,
-    c,
-    postgres,
-    sql,
-    django,
-    tailwind,
-    firebase,
-    svelte,
-  } from "../assets";
+	javascript,
+	typescript,
+	html,
+	css,
+	reactjs,
+	nodejs,
+	git,
+	python,
+	java,
+	mysql,
+	next,
+	c,
+	postgres,
+	sql,
+	django,
+	tailwind,
+	firebase,
+	svelte,
+} from "../assets";
 
-  const languages = [
+const projects = [
     {
-      name: "java",
-      icon: java,
+        title: "Link-Shelf",
+        description: "Share projects and important links to the world",
+        url: "https://link-shelf.vercel.app/",
+        repo: "https://github.com/joselozano2003/linktree-clone",
+        tech: [
+            svelte, firebase
+        ]
     },
     {
-      name: "HTML 5",
-      icon: html,
+        title: "Da Blog.",
+        description: "Blog to share my journey becoming a developer",
+        url: "https://jose-da-blog.vercel.app/home",
+        repo: "https://github.com/joselozano2003/Blog-App",
+        tech: [
+            next, postgres
+        ]
     },
     {
-      name: "CSS 3",
-      icon: css,
+        title: "Image Generator",
+        description: "Use OpenAI's API to generate images from text",
+        url: null,
+        repo: "https://github.com/joselozano2003/Image-Generator",
+        tech: [
+            javascript, nodejs
+        ]
     },
     {
-      name: "JavaScript",
-      icon: javascript,
+        title: "Toolbox",
+        description: "Set of tools to help developer's productivity",
+        url: "https://toolbox-vert.vercel.app",
+        repo: "https://github.com/joselozano2003/Toolbox",
+        tech: [
+            reactjs, typescript
+        ]
+    }
+]
+
+const languages = [
+    {
+      	name: "java",
+      	icon: java,
     },
     {
-      name: "TypeScript",
-      icon: typescript,
+		name: "HTML 5",
+		icon: html,
     },
     {
-      name: "python",
-      icon: python,
+		name: "CSS 3",
+		icon: css,
+    },
+    {
+		name: "JavaScript",
+		icon: javascript,
+    },
+    {
+		name: "TypeScript",
+		icon: typescript,
+    },
+    {
+		name: "python",
+		icon: python,
     }, 
   ]
   
   
-  const technologies = [
+const technologies = [
     {
-      name: "next",
-      icon: next,
+		name: "next",
+		icon: next,
     },
     {
-      name: "django",
-      icon: django,
+		name: "django",
+		icon: django,
     },
     {
-      name: "React JS",
-      icon: reactjs,
+		name: "React JS",
+		icon: reactjs,
     },
     {
-      name: "Node JS",
-      icon: nodejs,
+		name: "Node JS",
+		icon: nodejs,
     },
     {
-      name: "Svelte",
-      icon: svelte,
+		name: "Svelte",
+		icon: svelte,
     },
     {
-      name: "Tailwind CSS",
-      icon: tailwind,
+		name: "Tailwind CSS",
+		icon: tailwind,
     },
     {
-      name: "MySQL",
-      icon: mysql,
+		name: "MySQL",
+		icon: mysql,
     },
     {
-      name: "PostgreSQL",
-      icon: postgres,
+		name: "PostgreSQL",
+		icon: postgres,
     },
     {
-      name: "Firebase",
-      icon: firebase,
+		name: "Firebase",
+		icon: firebase,	
     },
     {
-      name: "git",
-      icon: git,
+		name: "git",
+		icon: git,
     },
+];
 
-
-
-  ];
-  
-  
-  export { languages, technologies};
+export { languages, technologies, projects};
   
