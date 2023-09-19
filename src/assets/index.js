@@ -17,7 +17,8 @@ import django from "./tech/django.png";
 import tailwind from "./tech/tailwind.png";
 import firebase from "./tech/firebase.png";
 import svelte from "./tech/svelte.png";
-
+import openAI from "./tech/openAi.png";
+import AWS from "./tech/aws.png";
 export {
   css,
   git,
@@ -37,5 +38,7 @@ export {
   django,
   tailwind,
   firebase,
-  svelte
+  svelte,
+  openAI,
+  AWS,
 };

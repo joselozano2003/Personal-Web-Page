@@ -17,9 +17,20 @@ import {
 	tailwind,
 	firebase,
 	svelte,
+  openAI,
+  AWS
 } from "../assets";
 
 const projects = [
+    {
+      title: "Talk-PDF",
+      description: "Talk to your PDF using GPT-3.5, AWS S3, and Pinecone DB",
+      url: "https://talk-pdf.vercel.app",
+      repo: "https://github.com/joselozano2003/talk-pdf",
+      tech: [
+          openAI, AWS
+      ]
+    },  
     {
         title: "WorkStaks",
         description: "A platform to manage team projects",
