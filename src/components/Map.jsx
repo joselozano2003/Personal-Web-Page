@@ -7,7 +7,7 @@ import {
 } from "react-simple-maps";
 
 const geoUrl =
-  "https://raw.githubusercontent.com/deldersveld/topojson/master/continents/north-america.json";
+  "https://unpkg.com/world-atlas@2.0.2/countries-110m.json";
 
 const markers = [
   { markerOffset: -30, name: "Calgary", coordinates: [-114.07, 51.0447] },
@@ -21,7 +21,7 @@ const Map = () => {
         height={400}
         projection="geoAzimuthalEqualArea"
         projectionConfig={{
-        rotate: [100, -48, 0],
+        rotate: [100, -40, 0],
         scale: 250
       }}
     >
